@@ -1,0 +1,43 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+
+.anchor
+validator.log
+
+# Node
+node_modules/
+.yarn/
+# IDL
+!target/idl/
+!target/types/
+
+# Build artifacts
+*.so
+*.dylib
+*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Solana
+.config/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
